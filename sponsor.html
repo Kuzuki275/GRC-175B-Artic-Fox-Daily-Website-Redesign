@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sponsor a resident animal at Arctic Fox Daily Wildlife Rescue. Help provide sanctuary and care for rescued animals.">
+    <title>Sponsor a Resident Animal - Arctic Fox Daily</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html" class="logo">
+                <img src="images/Logo.png" alt="Logo">
+                <h3>Arctic Fox Daily Wildlife Rescue Inc.</h3>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="residents.html">Our Residents</a></li>
+                <li><a href="needhelp.html">Need Help with an Animal</a></li>
+                <li><a href="sponsor.html" class="active">Sponsor a Resident Animal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="sponsor-page" class="container">
+        <section id="sponsorship">
+            <h1>Sponsor a Resident Animal</h1>
+            <p>Help provide ongoing care, food, and medical attention for our resident animals by becoming a sponsor. Your support ensures that these animals have a safe and happy forever home.</p>
+        </section>
+
+        <!-- Sponsorship Form -->
+        <section id="sponsorship-form">
+            <form id="sponsor-form" class="form-container">
+                <!-- Sponsorship Level -->
+                <label for="sponsorship-level">Sponsorship Level:</label>
+                <select id="sponsorship-level" name="sponsorship-level">
+                    <option value="bronze">Bronze - $25/month</option>
+                    <option value="silver">Silver - $50/month</option>
+                    <option value="gold">Gold - $100/month</option>
+                    <option value="custom">Custom Amount</option>
+                </select>
+
+                <!-- User Information -->
+                <fieldset>
+                    <legend>Your Information:</legend>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <!-- Comment Area -->
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Let us know your thoughts..."></textarea>
+
+                <!-- Social Media Checkbox -->
+                <fieldset>
+                    <legend>Stay Connected:</legend>
+                    <label>
+                        <input type="checkbox" name="social-media" value="facebook">
+                        Follow us on Facebook
+                    </label>
+                    <label>
+                        <input type="checkbox" name="social-media" value="instagram">
+                        Follow us on Instagram
+                    </label>
+                    <label>
+                        <input type="checkbox" name="social-media" value="twitter">
+                        Follow us on Twitter
+                    </label>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <p>&copy; 2024 Arctic Fox Daily Wildlife Rescue Inc.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
